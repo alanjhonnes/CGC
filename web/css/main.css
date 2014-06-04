@@ -1,0 +1,180 @@
+/* line 1, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\000031}}
+body {
+  color: #fff;
+  background-image: url(images/webtreats_metal_5-512px.jpg);
+}
+/* line 6, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\000036}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+/* line 10, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\0000310}}
+section {
+  min-height: 100%;
+  background-image: -webkit-radial-gradient(center center, ellipse cover, rgba(34, 34, 34, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%);
+  background-image: -moz-radial-gradient(center center, ellipse cover, rgba(34, 34, 34, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%);
+  background-image: radial-gradient(center center, ellipse cover, rgba(34, 34, 34, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+/* line 15, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\0000315}}
+section h1 {
+  padding: 5px;
+}
+/* line 20, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\0000320}}
+nav {
+  background-color: #ffffff;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.7);
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 100;
+}
+/* line 28, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\0000328}}
+nav ul {
+  margin: 0 auto;
+  padding: 0;
+  display: table-row;
+  width: 100%;
+  text-align: center;
+}
+/* line 34, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\0000334}}
+nav ul li {
+  display: table-cell;
+  width: 25%;
+  height: 100px;
+  line-height: 100px;
+  font-weight: bold;
+  color: #333;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 24px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.5s ease;
+}
+/* line 46, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\0000346}}
+nav ul li:hover,
+nav ul li.active-button {
+  background-color: #333;
+  color: #ccc;
+}
+/* line 70, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\0000370}}
+#rolamentos article {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+/* line 81, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\0000381}}
+#contato iframe {
+  width: 100%;
+  height: 350px;
+  padding: 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+}
+/* line 91, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\0000391}}
+.call-to-action {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  margin-top: 50px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.5s ease;
+}
+/* line 105, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\00003105}}
+.call-to-action:hover {
+  background-color: #333;
+  color: #ccc;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.7);
+}
+/* line 112, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\00003112}}
+.center-text {
+  text-align: center;
+}
+/* line 116, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\00003116}}
+.nicescroll-rails {
+  z-index: 1000 !important;
+}
+/* line 120, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\00003120}}
+#orcamento {
+  display: none;
+  z-index: 200;
+  width: 75%;
+  position: fixed;
+  background-color: #333;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 0px 30px 30px;
+  left: 12.5%;
+}
+/* line 132, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\00003132}}
+#overlay {
+  z-index: 150;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* line 142, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\00003142}}
+.close-button {
+  width: 50px;
+  height: 50px;
+  background-image: url(images/close-button.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+/* line 154, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\00003154}}
+.section-content {
+  position: relative;
+}
+/* line 158, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\00003158}}
+.section-divisor {
+  position: absolute;
+  height: 80px;
+  background-repeat: repeat-x;
+  width: 100%;
+}
+/* line 165, /home/alanjhonnes/NetBeansProjects/CGC/web/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/alanjhonnes\/NetBeansProjects\/CGC\/web\/less\/main\.less}line{font-family:\00003165}}
+textarea {
+  margin-bottom: 10px;
+}
