@@ -7,7 +7,7 @@ $(document).ready(function(){
     var windowWidth;
     var windowHeight;
     var mobileMode = false;
-    
+    var divisorHeight = 200;
     
     var $buttons = $("header li");
     var $icons = $('header li span');
@@ -38,11 +38,13 @@ $(document).ready(function(){
             $icons.css('lineHeight', navHeight + 'px');
             mobileMode = true;
         }
-        $sections.css('min-height', (windowHeight)+ 'px');
+        $sections.css('min-height', (windowHeight + 100)+ 'px');
         
         calculateScrollpoints();
         
-        $sections.each(function(){
+        console.log(scrollpoints);
+        
+        $sections.each(function(index){
             var $sectionContent = $(this).children(".section-content");
             var sectionOffset = ($(this).height() - $sectionContent.height()) / 2;
            $sectionContent.css("top", sectionOffset + "px");
@@ -52,9 +54,12 @@ $(document).ready(function(){
     
     function calculateScrollpoints() {
         scrollpoints = [];
-        $sections.each(function() {
+        $sections.each(function(index) {
             var offset;
             offset = $(this).offset().top - navHeight;
+            if(index > 0){
+                offset += divisorHeight;
+            }
             scrollpoints.push(offset);
         });
     }
@@ -62,6 +67,7 @@ $(document).ready(function(){
     
     $(window).scroll(function() {
         var scrolled = $(window).scrollTop();
+        console.log(scrolled);
         var totalPoints = scrollpoints.length;
         while (totalPoints--) {
             if (scrollpoints[totalPoints] <= scrolled) {
@@ -86,8 +92,8 @@ $(document).ready(function(){
         $(this).addClass('active-button');
         var sectionIndex = $(this).index();
         //scroll down to the respective section
-        var yOffset = $("section:eq(" + sectionIndex + ")").offset().top - navHeight;
-        TweenLite.to(window, 0.6, { scrollTo: { y: yOffset } } );
+        //var yOffset = $("section:eq(" + sectionIndex + ")").offset().top - navHeight + divisorHeight;
+        TweenLite.to(window, 0.6, { scrollTo: { y: scrollpoints[sectionIndex] +1 } } );
         
         
     });

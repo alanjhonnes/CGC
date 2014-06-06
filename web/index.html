@@ -20,7 +20,7 @@
         <header>
             <nav>
                 <ul>
-                    <li id="btn-home"><img src="images/logo.png" alt="CGC"/></li>
+                    <li id="btn-home"><!--<img src="images/logo.png" alt="CGC"/>-->CGC</li>
                     <li id="btn-rolamentos">Rolamentos</li>
                     <li id="btn-mancais">Mancais</li>
                     <li id="btn-contato">Contato</li>
@@ -29,25 +29,52 @@
         </header>
         <section id="home">
             <div class="container section-content">
-                <div class="row">
-                    <h1></h1>
-                    <div class="col-md-6">
-
+                <h1>Titulo chamada</h1>
+                <div class='row'>
+                    <div class='col-md-6'>
+                        <img class='img-independant img-responsive' src='img/main-image.jpg' alt=''/>
                     </div>
-                    <div class="col-md-6">
-
+                    <div class='col-md-6'>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis.</p>
+                        <div>
+                            <span class='glyphicon glyphicon-ok'></span> Rolamentos
+                        </div>
+                        <div>
+                            <span class='glyphicon glyphicon-ok'></span> Mancais
+                        </div>
+                        <div>
+                            <span class='glyphicon glyphicon-ok'></span> Buchas
+                        </div>
+                    </div>
+                </div>
+                <h1>Marcas</h1>
+                <div id="logos" class='row'>
+                    <div class="logo-wrapper col-md-3 col-xs-6">
+                        <img class='img-responsive' src="css/images/fag.png" alt="fag"/>
+                    </div>
+                    <div class="logo-wrapper col-md-3 col-xs-6">
+                        <img class='img-responsive' src="css/images/ina.png" alt="fag"/>
+                    </div>
+                    <div class="logo-wrapper col-md-3 col-xs-6">
+                        <img class='img-responsive' src="css/images/fag.png" alt="fag"/>
+                    </div>
+                    <div class="logo-wrapper col-md-3 col-xs-6">
+                        <img class='img-responsive' src="css/images/ina.png" alt="fag"/>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="section-divisor"></div>
+        <div class="section-divisor">
+            <div class="divisor-middle"></div>
+        </div>
         <section id="rolamentos">
             <div class="container section-content">
                 <div class="row">
                     <h1>Rolamentos</h1>
                     <div class="col-md-4">
                         <article>
-                            <img src="images/rolamento-esferas.png"/>
+                            <img class='img-responsive' src="img/esfera.jpg"/>
                             <h3>Esferas</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis. In nec iaculis erat. Fusce convallis metus sed auctor pretium. Duis consequat pulvinar nunc ut pharetra. Suspendisse malesuada arcu at vestibulum vestibulum. Duis hendrerit blandit pretium. Vestibulum ac erat sapien. 
@@ -56,7 +83,7 @@
                     </div>
                     <div class="col-md-4">
                         <article>
-                            <img src="images/rolamento-agulhas.png"/>
+                            <img class='img-responsive' src="img/agulha.jpg"/>
                             <h3>Agulhas</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis. In nec iaculis erat. Fusce convallis metus sed auctor pretium. Duis consequat pulvinar nunc ut pharetra. Suspendisse malesuada arcu at vestibulum vestibulum. Duis hendrerit blandit pretium. Vestibulum ac erat sapien. 
@@ -65,7 +92,7 @@
                     </div>
                     <div class="col-md-4">
                         <article>
-                            <img src="images/rolamento-rolos.png"/>
+                            <img class='img-responsive' src="img/rolos.jpg"/>
                             <h3>Rolos</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis. In nec iaculis erat. Fusce convallis metus sed auctor pretium. Duis consequat pulvinar nunc ut pharetra. Suspendisse malesuada arcu at vestibulum vestibulum. Duis hendrerit blandit pretium. Vestibulum ac erat sapien. 
@@ -81,16 +108,20 @@
                 </div>
             </div>
         </section>
-        <div class="section-divisor"></div>
+        <div class="section-divisor">
+            <div class="divisor-middle"></div>
+        </div>
         <section id="mancais">
             <div class="container section-content">
                 <div class="row">
                     <h1>Mancais</h1>
                     <div class="col-md-6">
-
+                        <img class='img-responsive img-independant' src='img/mancal.jpg'/>
                     </div>
                     <div class="col-md-6">
-
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis. In nec iaculis erat. Fusce convallis metus sed auctor pretium. Duis consequat pulvinar nunc ut pharetra. Suspendisse malesuada arcu at vestibulum vestibulum. Duis hendrerit blandit pretium. Vestibulum ac erat sapien. 
+                        </p>
                     </div>
                     <div class="center-text">
                         <div class="call-to-action">
@@ -101,7 +132,9 @@
                 </div>
             </div>
         </section>
-        <div class="section-divisor"></div>
+        <div class="section-divisor">
+            <div class="divisor-middle"></div>
+        </div>
         <section id="contato">
             <div class="container section-content">
                 <div class="row">
@@ -118,10 +151,11 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Freire+da+Silva,+203+-+Cambuci,+SP,+Brazil&amp;aq=0&amp;oq=Rua+Freire+da+Silva,+203+-+Cambuci&amp;sll=-23.564363,-46.615709&amp;sspn=0.001514,0.002468&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Freire+da+Silva,+203+-+Cambuci,+S%C3%A3o+Paulo,+01523-020,+Brazil&amp;ll=-23.564142,-46.615869&amp;spn=0.012037,0.019741&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+                        <div id='map'>
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Freire+da+Silva,+203+-+Cambuci,+SP,+Brazil&amp;aq=0&amp;oq=Rua+Freire+da+Silva,+203+-+Cambuci&amp;sll=-23.564363,-46.615709&amp;sspn=0.001514,0.002468&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Freire+da+Silva,+203+-+Cambuci,+S%C3%A3o+Paulo,+01523-020,+Brazil&amp;ll=-23.564142,-46.615869&amp;spn=0.012037,0.019741&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+                        </div>
                     </div>
                 </div>
-                
             </div>
         </section>
         <div id="overlay"></div>
