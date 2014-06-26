@@ -1,0 +1,21 @@
+services:
+    dna_varejo_admin.admin.content:
+        class: CGC\AdminBundle\Admin\ContentAdmin
+        arguments: [~, CGC\CoreBundle\Entity\Content, CGCAdminBundle:ContentAdmin]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: Conteúdo, label: Textos}
+    dna_varejo_admin.admin.brand:
+        class: CGC\AdminBundle\Admin\BrandAdmin
+        arguments: [~, CGC\CoreBundle\Entity\Brand, CGCAdminBundle:BrandAdmin]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: Conteúdo, label: Marcas}
+    dna_varejo_admin.admin.category:
+        class: CGC\AdminBundle\Admin\CategoryAdmin
+        arguments: [~, CGC\CoreBundle\Entity\Category, CGCAdminBundle:CategoryAdmin]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: Conteúdo, label: Categorias}
+    dna_varejo_admin.admin.product:
+        class: CGC\AdminBundle\Admin\ProductAdmin
+        arguments: [~, CGC\CoreBundle\Entity\Product, CGCAdminBundle:ProductAdmin]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: Conteúdo, label: Produtos}

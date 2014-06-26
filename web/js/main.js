@@ -1,5 +1,8 @@
 $(document).ready(function(){
-
+    
+    $(window).load(function() {
+        calculateScrollpoints();
+    });
     //$("html").niceScroll();
 
     var $header = $('header');
@@ -100,7 +103,7 @@ $(document).ready(function(){
     
     $(".call-to-action").click(function(){
        $("#overlay").fadeIn("fast"); 
-       $("#orcamento").css("top", "120px").fadeIn("fast"); 
+       $("#orcamento").css("marginTop", - ($('#orcamento').height())/2 + "px").fadeIn("fast"); 
     });
     
     $("#orcamento .close-button").click(function(){
