@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CGC Rolamentos</title>
+        <title>{{ content['titulo_site'] }}</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         <!-- Optional theme -->
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
         <!-- Latest compiled and minified JavaScript -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -20,16 +21,15 @@
         <header>
             <nav>
                 <ul>
-                    <li id="btn-home"><!--<img src="images/logo.png" alt="CGC"/>-->CGC</li>
-                    <li id="btn-rolamentos">Rolamentos</li>
-                    <li id="btn-mancais">Mancais</li>
-                    <li id="btn-contato">Contato</li>
+                    <li id="btn-home"><!--<img src="images/logo.png" alt="CGC"/>-->{{ content['menu_1'] }}</li>
+                    <li id="btn-rolamentos">{{ content['menu_2'] }}</li>
+                    <li id="btn-mancais">{{ content['menu_3'] }}</li>
+                    <li id="btn-contato">{{ content['menu_4'] }}</li>
                 </ul>
             </nav>
         </header>
         <section id="home">
             <div class="container section-content">
-                
                 <div class='row'>
                     <div class='col-md-6'>
                         <img class='img-independant img-responsive' src='img/main-image.jpg' alt=''/>
@@ -38,34 +38,17 @@
                         <img class='img-independant img-responsive' src='img/main-image-2.jpg' alt=''/>
                     </div>
                     <div class='col-md-12'>
-                        <h1>Titulo chamada</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis.</p>
-                        <div>
-                            <span class='glyphicon glyphicon-ok'></span> Rolamentos
-                        </div>
-                        <div>
-                            <span class='glyphicon glyphicon-ok'></span> Mancais
-                        </div>
-                        <div>
-                            <span class='glyphicon glyphicon-ok'></span> Buchas
-                        </div>
+                        <h1>{{ content['secao_1_titulo'] }}</h1>
+                        {{ content['secao_1_conteudo']}}
                     </div>
                 </div>
-                <h1>Marcas</h1>
+                <h1>{{ content['secao_1_marcas'] }}</h1>
                 <div id="logos" class='row'>
+                    {% for brand in brands %}
                     <div class="logo-wrapper col-md-3 col-xs-6">
-                        <img class='img-responsive' src="css/images/fag.png" alt="fag"/>
+                        <img class='img-responsive' src="{% path brand.logo, 'medium' %}" alt="{{brand.name}}"/>
                     </div>
-                    <div class="logo-wrapper col-md-3 col-xs-6">
-                        <img class='img-responsive' src="css/images/ina.png" alt="fag"/>
-                    </div>
-                    <div class="logo-wrapper col-md-3 col-xs-6">
-                        <img class='img-responsive' src="css/images/fag.png" alt="fag"/>
-                    </div>
-                    <div class="logo-wrapper col-md-3 col-xs-6">
-                        <img class='img-responsive' src="css/images/ina.png" alt="fag"/>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </section>
@@ -75,38 +58,32 @@
         <section id="rolamentos">
             <div class="container section-content">
                 <div class="row">
-                    <h1>Rolamentos</h1>
+                    <h1>{{ content['secao_2_titulo'] }}</h1>
                     <div class="col-md-4">
                         <article>
-                            <img class='img-responsive' src="img/esfera.jpg"/>
-                            <h3>Esferas</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis. In nec iaculis erat. Fusce convallis metus sed auctor pretium. Duis consequat pulvinar nunc ut pharetra. Suspendisse malesuada arcu at vestibulum vestibulum. Duis hendrerit blandit pretium. Vestibulum ac erat sapien. 
-                            </p>
+                            {{ content['rolamento_imagem_1'] }}
+                            <h3>{{ content['rolamento_nome_1'] }}</h3>
+                            <p>{{ content['rolamento_texto_1']}}</p>
                         </article>
                     </div>
                     <div class="col-md-4">
                         <article>
-                            <img class='img-responsive' src="img/agulha.jpg"/>
-                            <h3>Agulhas</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis. In nec iaculis erat. Fusce convallis metus sed auctor pretium. Duis consequat pulvinar nunc ut pharetra. Suspendisse malesuada arcu at vestibulum vestibulum. Duis hendrerit blandit pretium. Vestibulum ac erat sapien. 
-                            </p>
+                            {{ content['rolamento_imagem_2'] }}
+                            <h3>{{ content['rolamento_nome_2'] }}</h3>
+                            <p>{{ content['rolamento_texto_2']}}</p>
                         </article>
                     </div>
                     <div class="col-md-4">
                         <article>
-                            <img class='img-responsive' src="img/rolos.jpg"/>
-                            <h3>Rolos</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis. In nec iaculis erat. Fusce convallis metus sed auctor pretium. Duis consequat pulvinar nunc ut pharetra. Suspendisse malesuada arcu at vestibulum vestibulum. Duis hendrerit blandit pretium. Vestibulum ac erat sapien. 
-                            </p> 
+                            {{ content['rolamento_imagem_3'] }}
+                            <h3>{{ content['rolamento_nome_3'] }}</h3>
+                            <p>{{ content['rolamento_texto_3']}}</p>
                         </article>
                     </div>
                     <div class="center-text">
                         <div class="call-to-action">
                             <span class=" glyphicon glyphicon-ok"></span> 
-                            Solicite aqui seu orçamento
+                            {{ content['btn_orcamento'] }}
                         </div>
                     </div>
                 </div>
@@ -121,31 +98,28 @@
                     <h1>Mancais</h1>
                     <div class="col-md-4">
                         <article>
-                            <img class='img-responsive' src="img/mancal-1.jpg"/>
-                            
+                            {{ content['mancal_imagem_1'] }}
                         </article>
                     </div>
                     <div class="col-md-4">
                         <article>
-                            <img class='img-responsive' src="img/mancal-2.jpg"/>
-                            
+                            {{ content['mancal_imagem_2'] }}
                         </article>
                     </div>
                     <div class="col-md-4">
                         <article>
-                            <img class='img-responsive' src="img/mancal-3.jpg"/>
-                            
+                            {{ content['mancal_imagem_3'] }}
                         </article>
                     </div>
                     <div class="col-md-12">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis. In nec iaculis erat. Fusce convallis metus sed auctor pretium. Duis consequat pulvinar nunc ut pharetra. Suspendisse malesuada arcu at vestibulum vestibulum. Duis hendrerit blandit pretium. Vestibulum ac erat sapien. 
+                            {{ content['mancal_texto'] }}
                         </p>
                     </div>
                     <div class="center-text">
                         <div class="call-to-action">
                             <span class=" glyphicon glyphicon-ok"></span> 
-                            Solicite aqui seu orçamento
+                            {{ content['btn_orcamento'] }}
                         </div>
                     </div>
                 </div>
@@ -157,17 +131,15 @@
         <section id="contato">
             <div class="container section-content">
                 <div class="row">
-                    <h1>CGC Rolamentos</h1>
+                    <h1>{{ content['contato_titulo'] }}</h1>
                     <div class="col-md-6">
                         <address>
-                            Rua Freire da Silva 203 - 01523-020<br>
-                            Cambuci - São Paulo - SP<br>
-                            Tel: (11) 3203-0934<br>
+                            {{ content['contato_dados'] }}
                         </address>
-                        <p><a href="mailto:cgcmultipecas@hotmail.com">cgcmultipecas@hotmail.com</a></p>
+                        <p><a href="mailto:{{ content['contato_email'] }}">{{ content['contato_email'] }}</a></p>
                         <div class="call-to-action">
                             <span class=" glyphicon glyphicon-ok"></span> 
-                            Solicite aqui seu orçamento
+                            {{ content['btn_orcamento'] }}
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -180,7 +152,7 @@
         </section>
         <div id="overlay"></div>
         <div id="orcamento">
-            <h1>Orçamento</h1>
+            <h1>{{ content['formulario_titulo'] }}</h1>
             <div class="close-button"></div>
             <form role="form" method="post">
                 <div class="form-group">
@@ -207,11 +179,11 @@
                 </button>
             </form>
         </div>
-        <script src="js/jquery-1.11.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/gsap/TweenMax.js"></script>
-        <script src="js/gsap/plugins/ScrollToPlugin.js"></script>
-        <script src="js/vendor/jquery.nicescroll.js"></script>
-        <script src="js/main.js"></script>
+        <script src="{{ asset('js/jquery-1.11.1.min.js') }}"></script>
+        <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('js/gsap/TweenMax.js') }}"></script>
+        <script src="{{ asset('js/gsap/plugins/ScrollToPlugin.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery.nicescroll.js') }}"></script>
+        <script src="{{ asset('js/main.js') }}"></script>
     </body>
 </html>

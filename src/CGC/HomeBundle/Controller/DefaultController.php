@@ -24,6 +24,6 @@ class DefaultController extends Controller
         
         $brands = $this->getDoctrine()->getManager()->getRepository('CGCCoreBundle:Brand')->findAll();
         
-        return array('contents' => $contentsMap, 'brands' => $brands);
+        return array('content' => $contentsMap, 'brands' => $brands);
     }
 }
