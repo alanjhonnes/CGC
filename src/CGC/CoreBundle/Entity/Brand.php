@@ -86,4 +86,8 @@ class Brand {
     {
         return $this->logo;
     }
+    
+    public function __toString() {
+        return $this->getName();
+    }
 }

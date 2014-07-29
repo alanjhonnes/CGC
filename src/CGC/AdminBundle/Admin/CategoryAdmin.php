@@ -14,11 +14,17 @@ use Sonata\AdminBundle\Form\FormMapper;
  */
 class CategoryAdmin extends Admin {
     
+    
+    protected function configureRoutes(\Sonata\AdminBundle\Route\RouteCollection $collection) {
+        $collection->add('showPage', $this->getRouterIdParameter().'/showPage');
+    }
+    
     // Fields to be shown on create/edit forms
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('name', 'text', array('label' => 'Nome do Cliente'))
+            ->add('name', 'text', array('label' => 'Nome'))
+            ->add('description', null, array('label'=>'Descrição'))
         ;
         
     }
@@ -27,7 +33,7 @@ class CategoryAdmin extends Admin {
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
         $datagridMapper
-            ->add('name')
+            ->add('name', null, array('label'=>'Nome'))
         ;
     }
 
@@ -35,7 +41,15 @@ class CategoryAdmin extends Admin {
     protected function configureListFields(ListMapper $listMapper)
     {
         $listMapper
-            ->addIdentifier('name')
+            ->addIdentifier('name', null, array('label'=>'Nome'))
+            ->add('description', null, array('label'=>'Descrição'))
+            ->add('_action', 'actions', array(
+            'actions' => array(
+                'ShowPage' => array(
+                    'template' => 'CGCAdminBundle:Category:list__action_showPage.html.twig'
+                )
+            )
+        ))
         ;
     }
 }

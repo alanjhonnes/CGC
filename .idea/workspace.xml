@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="463525df-caac-4830-8cbf-066e516c5e40" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadCategoryData.php" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\src\CGC\CoreBundle\DataFixtures\ORM\LoadBrandsData.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadBrandData.php" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\.htaccess" afterPath="$PROJECT_DIR$/public_html/.htaccess" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\app.php" afterPath="$PROJECT_DIR$/public_html/app.php" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\app_dev.php" afterPath="$PROJECT_DIR$/public_html/app_dev.php" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\apple-touch-icon.png" afterPath="$PROJECT_DIR$/public_html/apple-touch-icon.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\config.php" afterPath="$PROJECT_DIR$/public_html/config.php" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap-theme.css" afterPath="$PROJECT_DIR$/public_html/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public_html/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public_html/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap.css" afterPath="$PROJECT_DIR$/public_html/css/bootstrap.css" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/public_html/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/public_html/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\btn-close.png" afterPath="$PROJECT_DIR$/public_html/css/images/btn-close.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\divisor-base.png" afterPath="$PROJECT_DIR$/public_html/css/images/divisor-base.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\divisor-middle.png" afterPath="$PROJECT_DIR$/public_html/css/images/divisor-middle.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\divisor.jpg" afterPath="$PROJECT_DIR$/public_html/css/images/divisor.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\divisor.png" afterPath="$PROJECT_DIR$/public_html/css/images/divisor.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\fag-grey.png" afterPath="$PROJECT_DIR$/public_html/css/images/fag-grey.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\fag.png" afterPath="$PROJECT_DIR$/public_html/css/images/fag.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\ina-grey.png" afterPath="$PROJECT_DIR$/public_html/css/images/ina-grey.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\ina.png" afterPath="$PROJECT_DIR$/public_html/css/images/ina.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\webtreats_metal_5-512px.jpg" afterPath="$PROJECT_DIR$/public_html/css/images/webtreats_metal_5-512px.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\main.css" afterPath="$PROJECT_DIR$/public_html/css/main.css" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\favicon.ico" afterPath="$PROJECT_DIR$/public_html/favicon.ico" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\agulha.jpg" afterPath="$PROJECT_DIR$/public_html/img/agulha.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\esfera.jpg" afterPath="$PROJECT_DIR$/public_html/img/esfera.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\fag-grey.png" afterPath="$PROJECT_DIR$/public_html/img/fag-grey.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\fag.png" afterPath="$PROJECT_DIR$/public_html/img/fag.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\ina-grey.png" afterPath="$PROJECT_DIR$/public_html/img/ina-grey.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\ina.png" afterPath="$PROJECT_DIR$/public_html/img/ina.png" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\main-image-2.jpg" afterPath="$PROJECT_DIR$/public_html/img/main-image-2.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\main-image.jpg" afterPath="$PROJECT_DIR$/public_html/img/main-image.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\mancal-1.jpg" afterPath="$PROJECT_DIR$/public_html/img/mancal-1.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\mancal-2.jpg" afterPath="$PROJECT_DIR$/public_html/img/mancal-2.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\mancal-3.jpg" afterPath="$PROJECT_DIR$/public_html/img/mancal-3.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\mancal.jpg" afterPath="$PROJECT_DIR$/public_html/img/mancal.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\rolos.jpg" afterPath="$PROJECT_DIR$/public_html/img/rolos.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\index.html" afterPath="$PROJECT_DIR$/public_html/index.html" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\Gruntfile.js" afterPath="$PROJECT_DIR$/public_html/js/Gruntfile.js" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\bootstrap.js" afterPath="$PROJECT_DIR$/public_html/js/bootstrap.js" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/public_html/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\gsap\TweenMax.js" afterPath="$PROJECT_DIR$/public_html/js/gsap/TweenMax.js" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\gsap\plugins\ScrollToPlugin.js" afterPath="$PROJECT_DIR$/public_html/js/gsap/plugins/ScrollToPlugin.js" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/public_html/js/jquery-1.11.1.min.js" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\jquery-1.11.1.min.map" afterPath="$PROJECT_DIR$/public_html/js/jquery-1.11.1.min.map" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\main.js" afterPath="$PROJECT_DIR$/public_html/js/main.js" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\vendor\jquery.nicescroll.js" afterPath="$PROJECT_DIR$/public_html/js/vendor/jquery.nicescroll.js" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\less\main.less" afterPath="$PROJECT_DIR$/public_html/less/main.less" />
+      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\robots.txt" afterPath="$PROJECT_DIR$/public_html/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/data/images/rolos.jpg" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/data/images/rolos.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Brand.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Brand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/BrandAdmin.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/BrandAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Category.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/CategoryAdmin.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/CategoryAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Controller/CategoryAdminController.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Controller/CategoryAdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/HomeBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/CGC/HomeBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadContentData.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadContentData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadProductData.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadProductData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Product.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/ProductAdmin.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/ProductAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Controller/ProductAdminController.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Controller/ProductAdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+    </list>
+    <ignored path="CGC.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="CGC" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DefaultController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CGC/HomeBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="42" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.696" vertical-offset="1218" max-vertical-offset="1734">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/contact.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/CGC/HomeBundle/Controller/DefaultController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="Symfony2.SettingsForm" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public_html" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="3fef35d6-5238-4bce-b73e-afce22939e02" server_name="CGC">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="463525df-caac-4830-8cbf-066e516c5e40" name="Default" comment="" />
+      <created>1406546620684</created>
+      <updated>1406546620684</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="401">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGC/HomeBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="42" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.696" vertical-offset="1218" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

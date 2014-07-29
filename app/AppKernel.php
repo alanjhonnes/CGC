@@ -35,6 +35,7 @@ class AppKernel extends Kernel
             new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
             new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
             new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
@@ -45,7 +46,6 @@ class AppKernel extends Kernel
             $bundles[] = new Bazinga\Bundle\FakerBundle\BazingaFakerBundle();
             $bundles[] = new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle();
         }
-
         return $bundles;
     }
 

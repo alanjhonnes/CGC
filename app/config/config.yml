@@ -36,6 +36,7 @@ twig:
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
+    read_from: "%kernel.root_dir%/../public_html"
     bundles:        [ ]
     #java: /usr/bin/java
     filters:
@@ -71,11 +72,15 @@ swiftmailer:
     host:      "%mailer_host%"
     username:  "%mailer_user%"
     password:  "%mailer_password%"
+    encryption: ssl
+    auth_mode:  login 
     spool:     { type: memory }
         
 sonata_admin:
     title:      " "
     title_logo: bundles/cgcadmin/images/logo.png
+    templates:
+        layout:  CGCAdminBundle::layout.html.twig
     
 sonata_media:
     # if you don't use default namespace configuration
@@ -94,17 +99,17 @@ sonata_media:
                 - sonata.media.provider.image
 
             formats:
-                small: { width: 84, height: 84, quality: 100}
-                medium: { width: 113, height: 113, quality: 100}
+                small: { width: 125, height: 125, quality: 100}
+                medium: { width: 250, height: 250, quality: 100}
                 big:   { width: 500, height: 500, quality: 100}
 
     cdn:
         server:
-            path: /jobs/CGC/web/uploads/media #/uploads/media # http://media.sonata-project.org/
+            path: /jobs/CGC/public_html/uploads/media #/uploads/media # http://media.sonata-project.org/
 
     filesystem:
         local:
-            directory:  %kernel.root_dir%/../web/uploads/media
+            directory:  %kernel.root_dir%/../public_html/uploads/media
             create:     false
             
 sonata_block:
@@ -167,3 +172,8 @@ ivory_ck_editor:
 #        layout: CoopTilleulsCKEditorSonataMediaBundle::layout.html.twig # Layout of the file browser
 #        browser: CoopTilleulsCKEditorSonataMediaBundle:MediaAdmin:browser.html.twig # Template of the CKEditor file browser
 #        upload: CoopTilleulsCKEditorSonataMediaBundle:MediaAdmin:upload.html.twig # Template returned after a direct upload
+stof_doctrine_extensions:
+    default_locale: pt_BR #en_US
+    orm:
+        default:
+            sluggable: true

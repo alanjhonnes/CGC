@@ -44,6 +44,18 @@ class LoadContentData extends AbstractFixture implements ContainerAwareInterface
         $manager->persist($content);
         
         $content = new Content();
+        $content->setSection('CGC');
+        $content->setKeyName('descricao_site');
+        $content->setContent('Venda de Rolamentos e Mancais, diversas marcas.');
+        $manager->persist($content);
+        
+        $content = new Content();
+        $content->setSection('CGC');
+        $content->setKeyName('keywords_site');
+        $content->setContent('rolamento, rolamentos, mancal, mancais, são paulo, sao paulo, rolamento de esfera, rolamento de agulha, rolamento de rolo');
+        $manager->persist($content);
+        
+        $content = new Content();
         $content->setSection('Menu');
         $content->setKeyName('menu_1');
         $content->setContent('CGC');
@@ -96,6 +108,24 @@ class LoadContentData extends AbstractFixture implements ContainerAwareInterface
         $manager->persist($content);
         
         $content = new Content();
+        $content->setSection('Seção 1');
+        $content->setKeyName('imagem_principal_1');
+        $content->setContent('/img/main-image.jpg');
+        $manager->persist($content);
+        
+        $content = new Content();
+        $content->setSection('Seção 1');
+        $content->setKeyName('imagem_principal_2');
+        $content->setContent('/img/main-image-2.jpg');
+        $manager->persist($content);
+        
+        $content = new Content();
+        $content->setSection('Seção 1');
+        $content->setKeyName('secao_1_marcas');
+        $content->setContent('Marcas');
+        $manager->persist($content);
+        
+        $content = new Content();
         $content->setSection('Seção 2');
         $content->setKeyName('secao_2_titulo');
         $content->setContent('Rolamentos');
@@ -104,19 +134,19 @@ class LoadContentData extends AbstractFixture implements ContainerAwareInterface
         $content = new Content();
         $content->setSection('Seção 2');
         $content->setKeyName('rolamento_imagem_1');
-        $content->setContent('<img class="img-responsive" src="img/esfera.jpg">');
+        $content->setContent('<img class="img-responsive" src="/img/esfera.jpg">');
         $manager->persist($content);
         
         $content = new Content();
         $content->setSection('Seção 2');
         $content->setKeyName('rolamento_imagem_2');
-        $content->setContent('<img class="img-responsive" src="img/agulha.jpg">');
+        $content->setContent('<img class="img-responsive" src="/img/agulha.jpg">');
         $manager->persist($content);
         
         $content = new Content();
         $content->setSection('Seção 2');
         $content->setKeyName('rolamento_imagem_3');
-        $content->setContent('<img class="img-responsive" src="img/rolo.jpg">');
+        $content->setContent('<img class="img-responsive" src="/img/rolo.jpg">');
         $manager->persist($content);
         
         $content = new Content();
@@ -164,19 +194,19 @@ class LoadContentData extends AbstractFixture implements ContainerAwareInterface
         $content = new Content();
         $content->setSection('Seção 3');
         $content->setKeyName('mancal_imagem_1');
-        $content->setContent('<img class="img-responsive" src="img/mancal-1.jpg">');
+        $content->setContent('<img class="img-responsive" src="/img/mancal-1.jpg">');
         $manager->persist($content);
         
         $content = new Content();
         $content->setSection('Seção 3');
         $content->setKeyName('mancal_imagem_2');
-        $content->setContent('<img class="img-responsive" src="img/mancal-2.jpg">');
+        $content->setContent('<img class="img-responsive" src="/img/mancal-2.jpg">');
         $manager->persist($content);
         
         $content = new Content();
         $content->setSection('Seção 3');
         $content->setKeyName('mancal_imagem_3');
-        $content->setContent('<img class="img-responsive" src="img/mancal-3.jpg">');
+        $content->setContent('<img class="img-responsive" src="/img/mancal-3.jpg">');
         $manager->persist($content);
         
         $content = new Content();

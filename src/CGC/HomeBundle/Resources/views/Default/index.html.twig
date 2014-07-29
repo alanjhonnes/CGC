@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>{{ content['titulo_site'] }}</title>
+        <meta content="{{ content['descricao_site'] }}">
+        <meta content="{{ content['keywords_site'] }}">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Latest compiled and minified CSS -->
@@ -10,7 +12,7 @@
         <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
         <!-- Latest compiled and minified JavaScript -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -32,10 +34,10 @@
             <div class="container section-content">
                 <div class='row'>
                     <div class='col-md-6'>
-                        <img class='img-independant img-responsive' src='img/main-image.jpg' alt=''/>
+                        <img class='img-independant img-responsive' src='/img/main-image.jpg' alt=''/>
                     </div>
                     <div class='col-md-6'>
-                        <img class='img-independant img-responsive' src='img/main-image-2.jpg' alt=''/>
+                        <img class='img-independant img-responsive' src='/img/main-image-2.jpg' alt=''/>
                     </div>
                     <div class='col-md-12'>
                         <h1>{{ content['secao_1_titulo'] }}</h1>
@@ -154,29 +156,30 @@
         <div id="orcamento">
             <h1>{{ content['formulario_titulo'] }}</h1>
             <div class="close-button"></div>
-            <form role="form" method="post">
+            <form id="contact-form" role="form" method="post" action="{{ path('contact') }}">
                 <div class="form-group">
                     <label for="input-nome">Nome</label>
-                    <input type="text" class="form-control" id="input-nome" placeholder="Digite seu nome">
+                    <input type="text" class="form-control" id="input-nome" placeholder="Digite seu nome" required name="name">
                 </div>
                 <div class="form-group">
                     <label for="input-telefone">Telefone</label>
-                    <input type="text" class="form-control" id="input-telefone" placeholder="Digite seu telefone de contato">
+                    <input type="text" class="form-control" id="input-telefone" placeholder="Digite seu telefone de contato" required name="phone">
                 </div>
                 <div class="form-group">
                     <label for="input-email">Email</label>
-                    <input type="email" class="form-control" id="input-email" placeholder="Digite seu email">
+                    <input type="email" class="form-control" id="input-email" placeholder="Digite seu email" required name="email">
                 </div>
                 <div class="form-group">
                     <label for="input-empresa">Empresa</label>
-                    <input type="text" class="form-control" id="input-empresa" placeholder="Digite sua empresa">
+                    <input type="text" class="form-control" id="input-empresa" placeholder="Digite sua empresa" name="company">
                 </div>
                 <label for="input-mensagem">Mensagem</label>
-                <textarea id="input-mensagem" class="form-control" rows="3" name="message"></textarea>
+                <textarea id="input-mensagem" class="form-control" rows="3" name="message" required name="message"></textarea>
                 <button type="submit" class="btn btn-default">
                     <span class="glyphicon glyphicon-envelope"></span> 
                     Enviar
                 </button>
+                <div id="contact-response"></div>
             </form>
         </div>
         <script src="{{ asset('js/jquery-1.11.1.min.js') }}"></script>
@@ -184,6 +187,10 @@
         <script src="{{ asset('js/gsap/TweenMax.js') }}"></script>
         <script src="{{ asset('js/gsap/plugins/ScrollToPlugin.js') }}"></script>
         <script src="{{ asset('js/vendor/jquery.nicescroll.js') }}"></script>
+        <script src="{{ asset('js/validation/jquery.validate.min.js') }}"></script>
+        <script src="{{ asset('js/validation/localization/messages_pt_BR.js') }}"></script>
+        <script src="{{ asset('js/jquery.form.min.js') }}"></script>
+        <script src="{{ asset('js/calltoaction.js') }}"></script>
         <script src="{{ asset('js/main.js') }}"></script>
     </body>
 </html>

@@ -4,6 +4,7 @@ namespace CGC\CoreBundle\Entity;
 
 use Doctrine\ORM\Mapping AS ORM;
 use Symfony\Component\Validator\Constraints as Assert;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * @author Alan Jhonnes <aj@alanjhonnes.com>
@@ -25,26 +26,38 @@ class Product {
     protected $name;
     
     /**
-     * @ORM\Column(type="text")
+     * @Gedmo\Slug(fields={"name"})
+     * @ORM\Column(length=255, unique=true)
+     */
+    private $slug;
+    
+    /**
+     * @ORM\Column(type="text", nullable=true)
      */
     protected $description;
     
     /**
-     * @ORM\ManyToOne(targetEntity="CGC\CoreBundle\Entity\Category",cascade={"persist"})
+     * @ORM\ManyToOne(targetEntity="CGC\CoreBundle\Entity\Category",cascade={"persist"}, inversedBy="products")
      * @ORM\JoinColumn(name="category_id", referencedColumnName="id")
      */
     protected $category;
     
     /**
-     * @ORM\ManyToMany(targetEntity="Application\Sonata\MediaBundle\Entity\Media",cascade={"persist"})
+     * @ORM\ManyToOne(targetEntity="CGC\CoreBundle\Entity\Brand",cascade={"persist"})
+     * @ORM\JoinColumn(name="brand_id", referencedColumnName="id")
      */
-    protected $images;
+    protected $brand;
+    
+    /**
+     * @ORM\ManyToOne(targetEntity="Application\Sonata\MediaBundle\Entity\Media",cascade={"persist"})
+     */
+    protected $image;
     /**
      * Constructor
      */
     public function __construct()
     {
-        $this->images = new \Doctrine\Common\Collections\ArrayCollection();
+        
     }
 
     /**
@@ -127,35 +140,75 @@ class Product {
     }
 
     /**
-     * Add images
+     * Set slug
      *
-     * @param \Application\Sonata\MediaBundle\Entity\Media $images
+     * @param string $slug
      * @return Product
      */
-    public function addImage(\Application\Sonata\MediaBundle\Entity\Media $images)
+    public function setSlug($slug)
     {
-        $this->images[] = $images;
+        $this->slug = $slug;
 
         return $this;
     }
 
     /**
-     * Remove images
+     * Get slug
      *
-     * @param \Application\Sonata\MediaBundle\Entity\Media $images
+     * @return string 
      */
-    public function removeImage(\Application\Sonata\MediaBundle\Entity\Media $images)
+    public function getSlug()
     {
-        $this->images->removeElement($images);
+        return $this->slug;
     }
 
     /**
-     * Get images
+     * Set brand
      *
-     * @return \Doctrine\Common\Collections\Collection 
+     * @param \CGC\CoreBundle\Entity\Brand $brand
+     * @return Product
      */
-    public function getImages()
+    public function setBrand(\CGC\CoreBundle\Entity\Brand $brand = null)
     {
-        return $this->images;
+        $this->brand = $brand;
+
+        return $this;
+    }
+
+    /**
+     * Get brand
+     *
+     * @return \CGC\CoreBundle\Entity\Brand 
+     */
+    public function getBrand()
+    {
+        return $this->brand;
+    }
+    
+    public function __toString() {
+        return $this->getName();
+    }
+
+    /**
+     * Set image
+     *
+     * @param \Application\Sonata\MediaBundle\Entity\Media $image
+     * @return Product
+     */
+    public function setImage(\Application\Sonata\MediaBundle\Entity\Media $image = null)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * Get image
+     *
+     * @return \Application\Sonata\MediaBundle\Entity\Media 
+     */
+    public function getImage()
+    {
+        return $this->image;
     }
 }

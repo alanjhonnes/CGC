@@ -18,7 +18,8 @@ class BrandAdmin extends Admin {
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('name', 'text', array('label' => 'Nome do Cliente'))
+            ->add('name', 'text', array('label' => 'Nome'))
+            ->add('logo', 'sonata_type_model_list', array('label' => 'Logotipo'))
         ;
         
     }
@@ -27,7 +28,7 @@ class BrandAdmin extends Admin {
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
         $datagridMapper
-            ->add('name')
+            ->add('name', null, array('label'=>'Nome'))
         ;
     }
 
@@ -35,7 +36,7 @@ class BrandAdmin extends Admin {
     protected function configureListFields(ListMapper $listMapper)
     {
         $listMapper
-            ->addIdentifier('name')
+            ->addIdentifier('name', null, array('label'=>'Nome'))
         ;
     }
 }

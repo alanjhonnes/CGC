@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <meta content="{% block metacontents %}{% endblock %}">
+        <meta keywords="{% block keywords %}{% endblock %}">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% block stylesheets %}
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+        {% endblock %}
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
+        <!-- Latest compiled and minified JavaScript -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header id="header-subpage">
+            <nav>
+                <a href="{{path('homepage')}}">CGC Rolamentos - Home</a>
+                
+            </nav>
+        </header>
+        {% block body %}
+        
+        {% endblock %}
+        <div class="section-divisor">
+            <div class="divisor-middle"></div>
+        </div>
+        <section id="contato">
+            <div class="container section-content">
+                <div class="row">
+                    <h1>{{ content['contato_titulo'] }}</h1>
+                    <div class="col-md-6">
+                        <address>
+                            {{ content['contato_dados'] }}
+                        </address>
+                        <p><a href="mailto:{{ content['contato_email'] }}">{{ content['contato_email'] }}</a></p>
+                        <div class="call-to-action">
+                            <span class=" glyphicon glyphicon-ok"></span> 
+                            {{ content['btn_orcamento'] }}
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id='map'>
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Freire+da+Silva,+203+-+Cambuci,+SP,+Brazil&amp;aq=0&amp;oq=Rua+Freire+da+Silva,+203+-+Cambuci&amp;sll=-23.564363,-46.615709&amp;sspn=0.001514,0.002468&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Freire+da+Silva,+203+-+Cambuci,+S%C3%A3o+Paulo,+01523-020,+Brazil&amp;ll=-23.564142,-46.615869&amp;spn=0.012037,0.019741&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% block javascripts %}
+        <script src="{{ asset('js/jquery-1.11.1.min.js') }}"></script>
+        <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('js/gsap/TweenMax.js') }}"></script>
+        <script src="{{ asset('js/gsap/plugins/ScrollToPlugin.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery.nicescroll.js') }}"></script>
+        <script src="{{ asset('js/validation/jquery.validate.min.js') }}"></script>
+        <script src="{{ asset('js/validation/localization/messages_pt_BR.js') }}"></script>
+        <script src="{{ asset('js/jquery.form.min.js') }}"></script>
+        <script src="{{ asset('js/calltoaction.js') }}"></script>
+        <script src="{{ asset('js/main.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>

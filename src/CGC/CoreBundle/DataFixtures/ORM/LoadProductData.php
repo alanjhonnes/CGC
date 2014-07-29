@@ -27,7 +27,7 @@ class LoadProductData extends AbstractFixture implements ContainerAwareInterface
 
     function getOrder()
     {
-        return 2;
+        return 5;
     }
 
     public function setContainer(ContainerInterface $container = null)
@@ -38,6 +38,12 @@ class LoadProductData extends AbstractFixture implements ContainerAwareInterface
     public function load(ObjectManager $manager)
     {
         
+        $product = new Product();
+        $product->setName('Rolamento de Esferas INA');
+        $product->setBrand($this->getReference('INA-brand'));
+        $product->setDescription('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis.');
+        $product->setCategory($this->getReference('Rolamento de Esferas'));
+        $manager->persist($product);
         $manager->flush();
     }
 }
