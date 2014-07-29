@@ -1,4 +1,4 @@
-/web/bundles/
+/public_html/bundles/
 /app/bootstrap.php.cache
 /app/cache/*
 /app/config/parameters.yml
@@ -10,5 +10,4 @@
 /bin/
 /composer.phar
 /assets/
-/web/uploads/media/
 /public_html/uploads/media/
