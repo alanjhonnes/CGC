@@ -2,80 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="463525df-caac-4830-8cbf-066e516c5e40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadCategoryData.php" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\src\CGC\CoreBundle\DataFixtures\ORM\LoadBrandsData.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadBrandData.php" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\.htaccess" afterPath="$PROJECT_DIR$/public_html/.htaccess" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\app.php" afterPath="$PROJECT_DIR$/public_html/app.php" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\app_dev.php" afterPath="$PROJECT_DIR$/public_html/app_dev.php" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\apple-touch-icon.png" afterPath="$PROJECT_DIR$/public_html/apple-touch-icon.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\config.php" afterPath="$PROJECT_DIR$/public_html/config.php" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap-theme.css" afterPath="$PROJECT_DIR$/public_html/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public_html/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public_html/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap.css" afterPath="$PROJECT_DIR$/public_html/css/bootstrap.css" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/public_html/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/public_html/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\btn-close.png" afterPath="$PROJECT_DIR$/public_html/css/images/btn-close.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\divisor-base.png" afterPath="$PROJECT_DIR$/public_html/css/images/divisor-base.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\divisor-middle.png" afterPath="$PROJECT_DIR$/public_html/css/images/divisor-middle.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\divisor.jpg" afterPath="$PROJECT_DIR$/public_html/css/images/divisor.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\divisor.png" afterPath="$PROJECT_DIR$/public_html/css/images/divisor.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\fag-grey.png" afterPath="$PROJECT_DIR$/public_html/css/images/fag-grey.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\fag.png" afterPath="$PROJECT_DIR$/public_html/css/images/fag.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\ina-grey.png" afterPath="$PROJECT_DIR$/public_html/css/images/ina-grey.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\ina.png" afterPath="$PROJECT_DIR$/public_html/css/images/ina.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\images\webtreats_metal_5-512px.jpg" afterPath="$PROJECT_DIR$/public_html/css/images/webtreats_metal_5-512px.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\css\main.css" afterPath="$PROJECT_DIR$/public_html/css/main.css" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\favicon.ico" afterPath="$PROJECT_DIR$/public_html/favicon.ico" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\agulha.jpg" afterPath="$PROJECT_DIR$/public_html/img/agulha.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\esfera.jpg" afterPath="$PROJECT_DIR$/public_html/img/esfera.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\fag-grey.png" afterPath="$PROJECT_DIR$/public_html/img/fag-grey.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\fag.png" afterPath="$PROJECT_DIR$/public_html/img/fag.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\ina-grey.png" afterPath="$PROJECT_DIR$/public_html/img/ina-grey.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\ina.png" afterPath="$PROJECT_DIR$/public_html/img/ina.png" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\main-image-2.jpg" afterPath="$PROJECT_DIR$/public_html/img/main-image-2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\main-image.jpg" afterPath="$PROJECT_DIR$/public_html/img/main-image.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\mancal-1.jpg" afterPath="$PROJECT_DIR$/public_html/img/mancal-1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\mancal-2.jpg" afterPath="$PROJECT_DIR$/public_html/img/mancal-2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\mancal-3.jpg" afterPath="$PROJECT_DIR$/public_html/img/mancal-3.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\mancal.jpg" afterPath="$PROJECT_DIR$/public_html/img/mancal.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\img\rolos.jpg" afterPath="$PROJECT_DIR$/public_html/img/rolos.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\index.html" afterPath="$PROJECT_DIR$/public_html/index.html" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\Gruntfile.js" afterPath="$PROJECT_DIR$/public_html/js/Gruntfile.js" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\bootstrap.js" afterPath="$PROJECT_DIR$/public_html/js/bootstrap.js" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/public_html/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\gsap\TweenMax.js" afterPath="$PROJECT_DIR$/public_html/js/gsap/TweenMax.js" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\gsap\plugins\ScrollToPlugin.js" afterPath="$PROJECT_DIR$/public_html/js/gsap/plugins/ScrollToPlugin.js" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/public_html/js/jquery-1.11.1.min.js" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\jquery-1.11.1.min.map" afterPath="$PROJECT_DIR$/public_html/js/jquery-1.11.1.min.map" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\main.js" afterPath="$PROJECT_DIR$/public_html/js/main.js" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\js\vendor\jquery.nicescroll.js" afterPath="$PROJECT_DIR$/public_html/js/vendor/jquery.nicescroll.js" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\less\main.less" afterPath="$PROJECT_DIR$/public_html/less/main.less" />
-      <change type="MOVED" beforePath="C:\Users\Alan Jhonnes\Desktop\Jobs\CGC\web\robots.txt" afterPath="$PROJECT_DIR$/public_html/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/data/images/rolos.jpg" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/data/images/rolos.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Brand.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Brand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/BrandAdmin.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/BrandAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Category.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/CategoryAdmin.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/CategoryAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Controller/CategoryAdminController.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Controller/CategoryAdminController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/HomeBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/CGC/HomeBundle/Controller/DefaultController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadContentData.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadContentData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadProductData.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadProductData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Product.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/Entity/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/ProductAdmin.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Admin/ProductAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Controller/ProductAdminController.php" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Controller/ProductAdminController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadMediaData.php" afterPath="$PROJECT_DIR$/src/CGC/CoreBundle/DataFixtures/ORM/LoadMediaData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/category.html.twig" afterPath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/category.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/AdminBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/CGC/AdminBundle/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/layoutBasic.html.twig" afterPath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/layoutBasic.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/css/main.css" afterPath="$PROJECT_DIR$/public_html/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/less/main.less" afterPath="$PROJECT_DIR$/public_html/less/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/product.html.twig" afterPath="$PROJECT_DIR$/src/CGC/HomeBundle/Resources/views/Default/product.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CGC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,7 +38,7 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CGC/HomeBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="42" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.696" vertical-offset="1218" max-vertical-offset="1734">
+            <state line="89" column="4" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.6053333" vertical-offset="1218" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
@@ -371,7 +308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CGC/HomeBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="42" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.696" vertical-offset="1218" max-vertical-offset="1734">
+        <state line="89" column="4" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.6053333" vertical-offset="1218" max-vertical-offset="1734">
           <folding />
         </state>
       </provider>

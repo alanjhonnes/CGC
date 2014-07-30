@@ -14,17 +14,30 @@
 {% block body %}
     <section>
             <div class="container">
-                <div>
+                <div class="col-md-6">
                     <h1>{{ category.name }}</h1>
                     <p>{{ category.description }}</p>
                     <div class="center-text">
-                        <div class="call-to-action">
+                        <div class="call-to-action visible-md visible-lg">
                             <span class=" glyphicon glyphicon-ok"></span> 
                             {{ content['btn_orcamento'] }}
                         </div>
                     </div>
                 </div>
-                
+                <div class="col-md-6 center-text">
+                    {% if category.image %}
+                        <img class="image-responsive" src="{% path category.image, 'big' %}" alt="{{ category.name }}"/>
+                    {% endif %}  
+                    
+                    
+                </div>
+                    
+                    <div class="center-text">
+                        <div class="call-to-action visible-xs visible-sm">
+                            <span class=" glyphicon glyphicon-ok"></span> 
+                            {{ content['btn_orcamento'] }}
+                        </div>
+                    </div>
             </div>
         </section>
         <div id="overlay"></div>

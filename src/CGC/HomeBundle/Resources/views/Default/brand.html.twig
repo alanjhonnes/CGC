@@ -1,26 +1,22 @@
 {% extends 'CGCHomeBundle::layoutBasic.html.twig' %}
 {% block title %}
-    {{ product.name }} | CGC Rolamentos
+    {{ brand.name }} | CGC Rolamentos
 {% endblock %}
 
 {% block metacontent %}
-    {{ product.description }}
+    {{ brand.name }}
 {% endblock %}
  
 {% block keywords %}
-    {{ product.name }}
+    {{ brand.name }}
 {% endblock %}
 
 {% block body %}
     <section>
-            
             <div class="container">
                 <div class="col-md-6">
-                    <h1>{{ product.name }}</h1>
-                    {% if product.category %}
-                        <h4><em>{{ product.category.name }}</em></h4>
-                    {% endif %}
-                    <p>{{ product.description }}</p>
+                    <h1>{{ brand.name }}</h1>
+                    <p>{{ brand.description }}</p>
                     <div class="center-text">
                         <div class="call-to-action visible-md visible-lg">
                             <span class=" glyphicon glyphicon-ok"></span> 
@@ -29,19 +25,10 @@
                     </div>
                 </div>
                 <div class="col-md-6 center-text">
-                    {% if product.image %}
-                        <img class="image-responsive" src="{% path product.image, 'big' %}" alt="{{ product.name }}"/>
+                    {% if brand.logo %}
+                        <img class="image-responsive img-full" src="{% path brand.logo, 'big' %}" alt="{{ brand.name }}"/>
                     {% endif %}  
-                    
-                    
                 </div>
-                    
-                    <div class="center-text">
-                        <div class="call-to-action visible-xs visible-sm">
-                            <span class=" glyphicon glyphicon-ok"></span> 
-                            {{ content['btn_orcamento'] }}
-                        </div>
-                    </div>
             </div>
         </section>
         <div id="overlay"></div>
@@ -78,4 +65,5 @@
 
 {% block javascripts %}
     {{ parent() }}
+    
 {% endblock %}

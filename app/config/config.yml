@@ -105,7 +105,7 @@ sonata_media:
 
     cdn:
         server:
-            path: /jobs/CGC/public_html/uploads/media #/uploads/media # http://media.sonata-project.org/
+            path: %media_cdn_server% #/uploads/media # http://media.sonata-project.org/
 
     filesystem:
         local:

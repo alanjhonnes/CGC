@@ -54,11 +54,26 @@ class DefaultController extends Controller
         }
         else {
             return array('content' => $this->getContentMap(), 'product' => $product);
-        }
-        
-        
-        
+        }  
     }
+    
+    /**
+     * @Route("/marca/{slug}", name="brand_show")
+     * @Template
+     */
+    public function brandAction($slug)
+    {
+        
+        $brand = $this->getDoctrine()->getManager()->getRepository('CGCCoreBundle:Brand')->findOneBySlug($slug);
+        
+        if(!$brand){
+            throw $this->createNotFoundException("Marca não encontrada.");
+        }
+        else {
+            return array('content' => $this->getContentMap(), 'brand' => $brand);
+        }  
+    }
+    
     /**
      * @Method({"POST"})
      * @Route("/contact/", name="contact")
@@ -68,8 +83,8 @@ class DefaultController extends Controller
         $message = \Swift_Message::newInstance()
         ->setSubject('Mensagem do site')
         ->setFrom('site@cgcmultipecas.com.br')
-        ->setTo('alanjhonnes@hotmail.com')
-        ->setCc('aj@alanjhonnes.com')
+        ->setTo('cgcmultipecas@hotmail.com')
+        ->setTo('site@cgcmultipecas.com.br')
         ->setBody( "Mensagem do site: \n"
                 . 'Nome: '. $request->request->get('name') . " \n"
                 . 'Email: ' . $request->request->get('email') . " \n"

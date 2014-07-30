@@ -146,7 +146,7 @@ class LoadContentData extends AbstractFixture implements ContainerAwareInterface
         $content = new Content();
         $content->setSection('Seção 2');
         $content->setKeyName('rolamento_imagem_3');
-        $content->setContent('<img class="img-responsive" src="/img/rolo.jpg">');
+        $content->setContent('<img class="img-responsive" src="/img/rolos.jpg">');
         $manager->persist($content);
         
         $content = new Content();
@@ -219,6 +219,12 @@ class LoadContentData extends AbstractFixture implements ContainerAwareInterface
         $content->setSection('Contato');
         $content->setKeyName('btn_orcamento');
         $content->setContent('Solicite aqui seu orçamento');
+        $manager->persist($content);
+        
+        $content = new Content();
+        $content->setSection('Contato');
+        $content->setKeyName('btn_contato');
+        $content->setContent('Entre em contato');
         $manager->persist($content);
         
         $content = new Content();

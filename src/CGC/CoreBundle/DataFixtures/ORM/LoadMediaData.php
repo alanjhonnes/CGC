@@ -41,6 +41,7 @@ class LoadMediaData extends AbstractFixture implements ContainerAwareInterface, 
         $logos = Finder::create()->name('*')->in(__DIR__.'/../data/logos');
         foreach ($logos as $file) {
             $media = $manager->create();
+            
             $media->setBinaryContent($file);
             $media->setEnabled(true);
             $filename = strtolower(substr($file->getFileName(), 0, -4));

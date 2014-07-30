@@ -14,12 +14,17 @@ use Sonata\AdminBundle\Form\FormMapper;
  */
 class BrandAdmin extends Admin {
     
+    protected function configureRoutes(\Sonata\AdminBundle\Route\RouteCollection $collection) {
+        $collection->add('showPage', $this->getRouterIdParameter().'/showPage');
+    }
+    
     // Fields to be shown on create/edit forms
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
             ->add('name', 'text', array('label' => 'Nome'))
             ->add('logo', 'sonata_type_model_list', array('label' => 'Logotipo'))
+            ->add('description', 'ckeditor', array('label' => 'Descrição'));
         ;
         
     }
@@ -37,6 +42,14 @@ class BrandAdmin extends Admin {
     {
         $listMapper
             ->addIdentifier('name', null, array('label'=>'Nome'))
+            ->add('description', 'text', array('label' => 'Descrição'))
+            ->add('_action', 'actions', array(
+                'actions' => array(
+                    'ShowPage' => array(
+                        'template' => 'CGCAdminBundle:Product:list__action_showPage.html.twig'
+                    )
+                )
+            ))
         ;
     }
 }

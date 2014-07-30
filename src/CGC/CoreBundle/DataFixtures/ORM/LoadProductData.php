@@ -37,12 +37,21 @@ class LoadProductData extends AbstractFixture implements ContainerAwareInterface
 
     public function load(ObjectManager $manager)
     {
-        
         $product = new Product();
-        $product->setName('Rolamento de Esferas INA');
+        $product->setName('Rolamento de Esferas');
         $product->setBrand($this->getReference('INA-brand'));
         $product->setDescription('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis.');
-        $product->setCategory($this->getReference('Rolamento de Esferas'));
+        $product->setCategory($this->getReference('Rolamento'));
+        $product->setImage($this->getReference('esfera'));
+        $manager->persist($product);
+        $manager->flush();
+        
+        $product = new Product();
+        $product->setName('Rolamento de Rolos');
+        $product->setBrand($this->getReference('INA-brand'));
+        $product->setDescription('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis.');
+        $product->setCategory($this->getReference('Rolamento'));
+        $product->setImage($this->getReference('rolos'));
         $manager->persist($product);
         $manager->flush();
     }

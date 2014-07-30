@@ -41,6 +41,11 @@ class Category {
      * @ORM\OneToMany(targetEntity="Product", mappedBy="category")
      */
     private $products;
+    
+    /**
+     * @ORM\ManyToOne(targetEntity="Application\Sonata\MediaBundle\Entity\Media",cascade={"persist"})
+     */
+    protected $image;
 
     /**
      * Get id
@@ -163,5 +168,28 @@ class Category {
     public function getProducts()
     {
         return $this->products;
+    }
+    
+    /**
+     * Set image
+     *
+     * @param \Application\Sonata\MediaBundle\Entity\Media $image
+     * @return Product
+     */
+    public function setImage(\Application\Sonata\MediaBundle\Entity\Media $image = null)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * Get image
+     *
+     * @return \Application\Sonata\MediaBundle\Entity\Media 
+     */
+    public function getImage()
+    {
+        return $this->image;
     }
 }

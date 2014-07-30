@@ -4,6 +4,7 @@ namespace CGC\CoreBundle\Entity;
 
 use Doctrine\ORM\Mapping AS ORM;
 use Symfony\Component\Validator\Constraints as Assert;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * @author Alan Jhonnes <aj@alanjhonnes.com>
@@ -23,6 +24,17 @@ class Brand {
      * @Assert\NotBlank()
      */
     protected $name;
+    
+    /**
+     * @Gedmo\Slug(fields={"name"})
+     * @ORM\Column(length=255, unique=true)
+     */
+    private $slug;
+    
+    /**
+     * @ORM\Column(type="text", nullable=true)
+     */
+    protected $description;
     
     /**
      * @ORM\ManyToOne(targetEntity="Application\Sonata\MediaBundle\Entity\Media",cascade={"persist"})
@@ -62,6 +74,52 @@ class Brand {
     public function getName()
     {
         return $this->name;
+    }
+    
+    /**
+     * Set slug
+     *
+     * @param string $slug
+     * @return Product
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+
+        return $this;
+    }
+
+    /**
+     * Get slug
+     *
+     * @return string 
+     */
+    public function getSlug()
+    {
+        return $this->slug;
+    }
+    
+    /**
+     * Set description
+     *
+     * @param string $name
+     * @return Brand
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    /**
+     * Get description
+     *
+     * @return string 
+     */
+    public function getDescription()
+    {
+        return $this->description;
     }
 
     /**

@@ -25,6 +25,7 @@ class CategoryAdmin extends Admin {
         $formMapper
             ->add('name', 'text', array('label' => 'Nome'))
             ->add('description', null, array('label'=>'Descrição'))
+            ->add('image', 'sonata_type_model_list', array('label' => 'Imagem'))
         ;
         
     }

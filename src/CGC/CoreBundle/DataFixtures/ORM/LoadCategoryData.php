@@ -41,27 +41,17 @@ class LoadCategoryData extends AbstractFixture implements ContainerAwareInterfac
         $category = new Category();
         $category->setName('Rolamento');
         $this->addReference($category->getName(), $category);
+        $category->setImage($this->getReference('esfera'));
+        $category->setDescription('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis.');
         $manager->persist($category);
         
         $category = new Category();
         $category->setName('Mancal');
         $this->addReference($category->getName(), $category);
+        $category->setImage($this->getReference('mancal-1'));
+        $category->setDescription('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis a enim ac tristique. Aenean tristique vitae tellus eget mattis.');
         $manager->persist($category);
         
-        $category = new Category();
-        $category->setName('Rolamento de Esferas');
-        $this->addReference($category->getName(), $category);
-        $manager->persist($category);
-        
-        $category = new Category();
-        $category->setName('Rolamento de Agulhas');
-        $this->addReference($category->getName(), $category);
-        $manager->persist($category);
-        
-        $category = new Category();
-        $category->setName('Rolamento de Rolos');
-        $this->addReference($category->getName(), $category);
-        $manager->persist($category);
         
         $manager->flush();
     }
