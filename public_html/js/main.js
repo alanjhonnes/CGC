@@ -1,9 +1,4 @@
 $(document).ready(function(){
-    
-    $(window).load(function() {
-        calculateScrollpoints();
-    });
-    //$("html").niceScroll();
 
     var $header = $('header');
     var $window = $(window);
@@ -11,7 +6,7 @@ $(document).ready(function(){
     var windowHeight;
     var mobileMode = false;
     var divisorHeight = 200;
-    
+
     var $buttons = $("header li");
     var $icons = $('header li span');
     var $sections = $("section");
@@ -20,6 +15,13 @@ $(document).ready(function(){
     var activeIndex = 0;
     var scrollpoints = [];
     var navHeight = 0;
+
+    $window.load(function () {
+        $window.resize();
+    });
+    //$("html").niceScroll();
+
+
 
     $activeButton.addClass("active-button");
     

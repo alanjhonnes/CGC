@@ -34,10 +34,10 @@
             <div class="container section-content">
                 <div class='row'>
                     <div class='col-md-6'>
-                        <img class='img-independant img-responsive' src='/img/main-image.jpg' alt=''/>
+                        <img class='img-independant img-responsive img-full' src='/img/main-image.jpg' alt=''/>
                     </div>
                     <div class='col-md-6'>
-                        <img class='img-independant img-responsive' src='/img/main-image-2.jpg' alt=''/>
+                        <img class='img-independant img-responsive img-full' src='/img/main-image-2.jpg' alt=''/>
                     </div>
                     <div class='col-md-12'>
                         <h1>{{ content['secao_1_titulo'] }}</h1>
@@ -47,7 +47,7 @@
                 <h1>{{ content['secao_1_marcas'] }}</h1>
                 <div id="logos" class='row'>
                     {% for brand in brands %}
-                    <div class="logo-wrapper col-md-3 col-xs-6">
+                        <div class="logo-wrapper col-md-2 col-xs-4">
                         <img class='img-responsive' src="{% path brand.logo, 'medium' %}" alt="{{brand.name}}"/>
                     </div>
                     {% endfor %}

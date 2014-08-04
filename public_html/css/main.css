@@ -11,7 +11,7 @@ h6 {
   font-weight: bold;
 }
 section {
-  padding: 200px 0px 120px;
+  padding: 200px 0px 50px;
   min-height: 100%;
   background-image: -webkit-radial-gradient(center center, ellipse cover, rgba(34, 34, 34, 0.1) 0%, rgba(0, 0, 0, 0.7) 100%);
   background-image: -moz-radial-gradient(center center, ellipse cover, rgba(34, 34, 34, 0.1) 0%, rgba(0, 0, 0, 0.7) 100%);
@@ -162,7 +162,7 @@ textarea {
 }
 #logos div {
   text-align: center;
-  margin: 0;
+  margin: 10px 0;
 }
 #logos img {
   position: relative;
@@ -195,7 +195,7 @@ textarea {
   border-radius: 10px;
 }
 .img-responsive {
-  margin: 0 auto;
+  margin: 10px auto;
 }
 textarea {
   resize: vertical;
